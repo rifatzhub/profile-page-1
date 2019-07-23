@@ -6,12 +6,26 @@
 /*    propertyName: what you are changing to; <-- this semi colon is IMPORTANT!*/
 /*}*/
 
+p {
+  color: #B322FF;
+  font-family: 'Helvetica';
+  font-size: 20px;
+  text-align: left;
+  text-shadow: 0 0 3px #FF0000;
+  border-style: groove;
+  background-color: black;
+}
+
 body{
     background-color: #DDAAFF;
+    height: 200px;
+    width: 100%;
+
     /*you could add more properties to change right in here, no need to call body again.*/
 }
 
 #title{
-    width: 50% !important;
-    padding:50px;
+    text-align: center;
+    font-family: Trebuchet MS;
+    font-style: italic;
 }
